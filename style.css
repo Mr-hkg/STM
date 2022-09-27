@@ -1,0 +1,68 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #ddd;
+    margin: 70px 80px;
+}
+.divider{
+    width: 100px;
+    height: 2px;
+    background-color: #0069d6;
+    margin: 0 auto 20px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.heading img{
+    width: 4%;
+    height: auto;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+#contact-form{
+    font-size: 20px;
+    background-color: #fff;
+    padding: 40px ;
+    border-radius: 10px;
+}
+
+.blues{
+    color: #0069d6;
+}
+
+#contact-form input[type="submit"]{
+    margin: 40px auto 0;
+    display: block;
+}
+.comments{
+    font-size: 20px;
+    font-style: italic;
+    color: #d82c2e;
+    height: 25px;
+}
+.thanks{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+
+}
+.btn1{
+    border: 1px solid #ddd;
+    background: linear-gradient(to right, green, rgb(69, 255, 69));
+    color: #fff;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in 0s;
+}
+
+#contact-form input[type="submit"]:hover{
+    background-color: #333;
+    border-color: #ffa500;
+}
