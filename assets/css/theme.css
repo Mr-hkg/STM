@@ -18655,7 +18655,7 @@ img, figure {
   vertical-align: middle;
 }
 
-.card-text {
+.card1.card-text {
   padding-top: 12px;
   color: #8c8c8c;
 }
@@ -18667,7 +18667,7 @@ p, .p {
   margin: 0 0 16px;
 }
 
-.card-title {
+.card1.card-title {
   margin: 0;
   font-family: "Montserrat",sans-serif;
   font-size: 18px;
@@ -18732,4 +18732,14 @@ p, .p {
 }
 .card2 .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
   transform: scale3d(1, 1, 1);
+}
+.green-num{
+  border: solid green 1px;
+  font-size: x-large;
+  position: relative;
+  top:60px;
+}
+.myqr{
+  position: relative;
+  top: 80px;
 }
